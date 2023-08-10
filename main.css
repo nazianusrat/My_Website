@@ -845,8 +845,6 @@ footer a {
   font-size: 2rem;
 }
 
-/* Responsive Design */
-
 @media (max-width: 750px) {
   .main-message h3 {
     font-size: 3rem;
