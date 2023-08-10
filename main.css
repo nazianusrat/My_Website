@@ -42,6 +42,12 @@ img {
   height: auto;
 }
 
+.project-img1 {
+  width: 45%;
+  max-width: 35%;
+  height: auto;
+}
+
 /* header */
 
 header {
@@ -77,21 +83,17 @@ nav {
   width: 15px;
   height: 3px;
   margin: 5px 0;
-  background: linear-gradient(
-    135deg,
-    rgba(249, 105, 14, 1) 0%,
-    rgb(255, 255, 255) 100%
-  );
+  background: linear-gradient(135deg,
+      rgba(249, 105, 14, 1) 0%,
+      rgb(255, 255, 255) 100%);
 }
 
 .line2 {
   width: 50px;
   height: 3px;
-  background: linear-gradient(
-    135deg,
-    rgba(249, 105, 14, 1) 0%,
-    rgb(255, 255, 255) 100%
-  );
+  background: linear-gradient(135deg,
+      rgba(249, 105, 14, 1) 0%,
+      rgb(255, 255, 255) 100%);
 }
 
 .line3 {
@@ -99,11 +101,9 @@ nav {
   height: 3px;
   margin: 5px 0;
   margin-left: 15px;
-  background: linear-gradient(
-    135deg,
-    rgba(249, 105, 14, 1) 0%,
-    rgb(255, 255, 255) 100%
-  );
+  background: linear-gradient(135deg,
+      rgba(249, 105, 14, 1) 0%,
+      rgb(255, 255, 255) 100%);
 }
 
 .burger-menu-icon {
@@ -118,7 +118,7 @@ nav {
 }
 
 .profile-pic {
-  height: 9rem;
+  height: 10rem;
   width: auto;
   border-radius: 50%;
   display: block;
@@ -186,6 +186,7 @@ nav {
     opacity: 0;
     transform: translate(50px);
   }
+
   to {
     opacity: 1;
     transform: translate(0px);
@@ -196,11 +197,9 @@ nav {
 .landing-page {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(
-      135deg,
+  background: linear-gradient(135deg,
       rgba(0, 64, 77, 0.9) 0%,
-      rgba(0, 0, 0, 0.8) 100%
-    ),
+      rgba(0, 0, 0, 0.8) 100%),
     url("images/landing-page.png") center no-repeat;
   background-size: contain;
   position: relative;
@@ -234,6 +233,7 @@ nav {
     width: 0ch;
     color: rgba(249, 105, 14, 1);
   }
+
   100% {
     width: 27ch;
   }
@@ -243,6 +243,7 @@ nav {
   0% {
     border-right: 4px solid rgba(255, 255, 255, 0);
   }
+
   100% {
     border-right: 4px solid rgb(194, 194, 194);
   }
@@ -252,11 +253,9 @@ nav {
   font-size: 4rem;
   margin: 1rem 0;
   color: rgba(249, 105, 14, 1);
-  background: linear-gradient(
-    to right,
-    rgba(249, 105, 14, 1) 0%,
-    rgba(102, 51, 153, 1) 100%
-  );
+  background: linear-gradient(to right,
+      rgba(249, 105, 14, 1) 0%,
+      rgba(102, 51, 153, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -319,9 +318,9 @@ nav {
 .about-img img {
   height: 12rem;
   width: auto;
-  border-radius: 50%;
+  border-radius: 8%;
   margin: 2rem;
-  box-shadow: 0 20px 30px 0 rgba(0, 255, 255, 0.15);
+  box-shadow: 0 20px 22px 0 rgba(0, 255, 255, 0.15);
 }
 
 .about-text-box {
@@ -339,17 +338,15 @@ nav {
   font-family: "Poppins", sans-serif;
   font-size: 1.4rem;
   padding: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 1rem;
   text-align: justify;
 }
 
 hr {
-  margin: 4rem 0;
-  background: linear-gradient(
-    to right,
-    rgba(249, 105, 14, 1) 0%,
-    rgba(102, 51, 153, 1) 100%
-  );
+  margin: 6rem 0;
+  background: linear-gradient(to right,
+      rgba(249, 105, 14, 1) 0%,
+      rgba(102, 51, 153, 1) 100%);
   border: 0;
   height: 1px;
 }
@@ -365,18 +362,67 @@ hr {
 
 .title-heading {
   text-align: center;
-  margin-bottom: 5rem;
-}
-.title-heading-1{
-  text-align: center;
-  margin-bottom: 3rem;
-}
-.title-heading-1 h2{
-  text-align: center;
   margin-bottom: 2rem;
-} 
 
-#bsc{
+}
+
+.title-heading-1 {
+  text-align: center;
+  margin-top: 0rem;
+  margin-bottom: 2rem;
+}
+
+.title-heading-1 h2 {
+  text-align: center;
+  margin-top: 0rem;
+  margin-bottom: 2rem;
+}
+
+#My-Experience {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+#Marketing {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+#Graphics {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+#Marketing {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+
+#workdetails {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+#BIBA {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+
+#Msc {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+#bsc {
   text-align: center;
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -415,11 +461,9 @@ hr {
 .tier-item h2 {
   font-size: 2rem;
   margin: 2rem 0;
-  background: linear-gradient(
-    to right,
-    rgba(249, 105, 14, 1) 0%,
-    rgba(102, 51, 153, 1) 100%
-  );
+  background: linear-gradient(to right,
+      rgba(249, 105, 14, 1) 0%,
+      rgba(102, 51, 153, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -449,8 +493,82 @@ hr {
   margin: 0 1.45rem 5rem 1.45rem;
 }
 
+.project-item1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 1.45rem 7rem 1.45rem;
+}
+
+.project-videoitem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 6px -6.55rem 8rem -9.45rem;
+}
+
+.project-videoitem2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 6px 22.45rem 8rem 20.45rem;
+}
+
+.project-videoitem3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 6px 22.45rem 8rem 20.45rem;
+}
+
+.project-videoitem4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 6px 19.45rem 8rem 20.45rem;
+}
+
+.project-videoitem7 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 6px 19.45rem 8rem 20.45rem;
+}
+
+.project-videoitem8 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  width: 80;
+  height: 80;
+  flex: -25;
+}
+
+
 .project-img {
   flex: 1;
+}
+
+.project-img1 {
+  flex: -25;
+}
+
+
+
+.project-videodescription {
+  flex: 1;
+}
+
+.project-videodescription h2 {
+  font-size: 3rem;
+  margin: 2rem 0;
+  background: linear-gradient(to right,
+      rgba(249, 105, 14, 1) 0%,
+      rgba(102, 51, 153, 1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .project-description {
@@ -460,13 +578,17 @@ hr {
 .project-description h2 {
   font-size: 2rem;
   margin: 2rem 0;
-  background: linear-gradient(
-    to right,
-    rgba(249, 105, 14, 1) 0%,
-    rgba(102, 51, 153, 1) 100%
-  );
+  background: linear-gradient(to right,
+      rgba(249, 105, 14, 1) 0%,
+      rgba(102, 51, 153, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.project-videodescription p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4rem;
+  text-align: justify;
 }
 
 .project-description p {
@@ -480,6 +602,180 @@ hr {
   margin: 2rem 0;
   font-size: 1.4rem;
 }
+
+
+.image-row {
+  display: flex;
+  /* Use flexbox to arrange images in a row */
+  justify-content: center;
+}
+
+.image-row img {
+  width: 33.33%;
+  /* Divide the width equally among the three images */
+  height: auto;
+  /* Maintain the aspect ratio of the images */
+  margin-right: 2rem;
+
+}
+
+
+.skills {
+  padding: 20px;
+  width: 500px;
+  margin: 60px auto;
+  color: #fff;
+}
+
+
+.skills li {
+  margin: 20px 0;
+  padding: 12px;
+}
+
+.skills-info {
+  flex: 2;
+  display: flex;
+  align-items: center;
+}
+
+.skill-img {
+  width: 60px;
+  height: auto;
+  margin-right: 1rem;
+}
+
+
+.bar:hover {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  /* background-color: aqua; */
+}
+
+
+/* .bar:hover {
+  box-shadow: 0 14px 28px rgba(255, 0, 0, 0.25) 0 10px 10px rgba(0, 0, 0, 0.22);
+
+} */
+
+.bar {
+  flex: 0;
+  height: 20px;
+  background-color: #ffffff;
+  display: block;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, .8, .25, 1);
+  margin: 20px 0;
+  padding: 12px;
+}
+
+span {
+  /* height: 20px; */
+  /* float: left; */
+}
+
+
+/* new version for the skills bar */
+/* .myskills{
+  width: 500px;
+} */
+
+
+
+.details {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.bar {
+  position: relative;
+  justify-content: center;
+  border: 2px solid #0d96e0;
+  border-radius: 20px;
+
+}
+
+.bar div {
+  position: relative;
+  width: 80;
+  height: 100px;
+  border-radius: 10px;
+  background-color: #0d96e0;
+
+
+}
+
+/* .myskills:not(:last-child) {
+  margin-bottom: 30px;
+} */
+
+#css-bar {
+  padding: 7.5px;
+  animation: html-fill 2s forwards;
+  padding-bottom: 50%;
+}
+
+@keyframes html-fill {
+  100% {
+    width: 10%;
+  }
+}
+
+
+/* background: linear-gradient(135deg, rgba(236, 0, 140, 1)0%, rgba(252, 103, 103, 1)100%) */
+.html {
+  width: 90%;
+  animation: html 3s;
+
+}
+
+.html {
+  width: 90%;
+  animation: html 3s;
+
+}
+
+.html {
+  width: 90%;
+  animation: html 3s;
+
+}
+
+.html {
+  width: 90%;
+  animation: html 3s;
+
+}
+
+.html {
+  width: 90%;
+  animation: html 3s;
+
+}
+
+.html {
+  width: 60%;
+  animation: html 3s;
+
+}
+
+/* @keyframes html {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 95%;
+  }
+} */
+
+
+
+
 
 /* Contact */
 
@@ -510,10 +806,17 @@ hr {
   justify-content: space-evenly;
   align-items: center;
 }
-.cta-1{
+
+.cta-1 {
   margin: auto;
   width: 18.5%;
 }
+
+.cta-2 {
+  margin: center;
+  width: 15.5%;
+}
+
 /* Footer */
 
 footer {
@@ -548,12 +851,15 @@ footer a {
   .main-message h3 {
     font-size: 3rem;
   }
+
   .about .container {
     flex-direction: column;
   }
+
   p {
     font-size: 1.3rem;
   }
+
   .title-heading {
     margin: 0;
   }
@@ -561,12 +867,14 @@ footer a {
   .services-tiers {
     gap: 0;
   }
+
   .project-item {
     flex-direction: column;
     align-items: flex-start;
     padding: 2rem;
     box-shadow: 0 20px 30px 0 rgba(212, 255, 255, 0.15);
   }
+
   .project-img {
     width: 20rem;
   }
@@ -576,6 +884,7 @@ footer a {
   .main-message {
     top: 55%;
   }
+
   .main-message h2 {
     letter-spacing: 1rem;
     font-size: 1.5rem;
@@ -589,14 +898,17 @@ footer a {
   .main-message p {
     font-size: 1.3rem;
   }
+
   .btn {
     border-radius: 0.9rem;
     padding: 0.9rem 0.9rem;
   }
+
   .about-text-box h2 {
     font-size: 3rem;
     margin-bottom: 20px;
   }
+
   .about-text-box p {
     margin: 0 0 2.45rem;
   }
@@ -604,6 +916,7 @@ footer a {
   .title-heading h2 {
     margin-bottom: 2rem;
   }
+
   .title-heading p {
     font-size: 1.3rem;
   }
